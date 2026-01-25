@@ -3,9 +3,10 @@
 // ============================================
 import type { Metadata } from 'next';
 import { Inter, JetBrains_Mono } from 'next/font/google';
-import './globals.css';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+import LenisProvider from '@/components/providers/LenisProvider';
+import './globals.css';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -81,11 +82,13 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable}`}>
       <body className="min-h-screen bg-gradient-astral">
-        <Header />
-        <main className="relative">
-          {children}
-        </main>
-        <Footer />
+        <LenisProvider>
+          <Header />
+          <main className="relative">
+            {children}
+          </main>
+          <Footer />
+        </LenisProvider>
       </body>
     </html>
   );

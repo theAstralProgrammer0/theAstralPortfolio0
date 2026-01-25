@@ -1,21 +1,25 @@
-import { PortfolioData } from "./portfolio";
+/*
+ * This file contains all portfolio data for Astral 
+ */
+
+import { PortfolioData } from "@/types/portfolio";
 
 export const astralPortfolioData: PortfolioData = {
   personal: {
     name: "Temitayo Daisi-Oso",
     title: "Software Engineer | Project Manager | Full-Stack Developer",
     tagline: "Building scalable solutions across blockchain, health-tech, and government sectors",
-    summary: "Results-driven Software Engineer and Project Manager with 7+ years of experience delivering scalable full-stack applications, digital transformation projects, and blockchain solutions across multiple industries.",
+    summary: "Results-driven Software Engineer and Project Manager with 7+ years of experience delivering secure, scalable, feature-rich full-stack applications, digital transformation projects, and blockchain solutions across multiple industries. Loves to create immersive web experiences with cutting-edge technologies.",
     contact: {
       phone: "+234 814-230-5514",
       phoneLink: "tel:+2348142305514",
-      email: "tdaisioso@gmail.com",
+      email: "theastralprogrammer0@outlook.com",
       location: "Lagos, Nigeria",
-      portfolio: "https://bit.ly/TemitayoDaisi-Oso",
+      portfolio: "https://theastralprogrammer0.vercel.app",
       linkedin: "https://linkedin.com/in/tdaisioso",
       github: "https://github.com/theAstralProgrammer0",
       discord: "theAstralProgrammer0",
-      blog: "https://the-astral-programmer0.hashnode.dev"
+      blog: "https://https://the-astral-programmer0.hashnode.dev"
     }
   },
   skills: [
@@ -143,6 +147,85 @@ export const astralPortfolioData: PortfolioData = {
       topics: ["Web Architecture", "DNS", "HTTP", "Networking"]
     }
     // Add other publications
+  ], 
+  pricingPlans: [
+    {
+      id: "1",
+      title: "Full-Time",
+      subtitle: "Dedicated Development",
+      price: "$5,000",
+      period: "month",
+      description: "Perfect for long-term projects requiring dedicated attention",
+      features: [
+        "40+ hours per week",
+        "Priority support",
+        "Weekly progress reports",
+        "Unlimited revisions",
+        "Project management included"
+      ],
+      highlighted: true,
+      cta: "Start Full-Time Project",
+      color: "primary"
+    },
+    {
+      id: "2",
+      title: "Part-Time",
+      subtitle: "Flexible Collaboration",
+      price: "$3,000",
+      period: "month",
+      description: "Ideal for ongoing maintenance or smaller feature development",
+      features: [
+        "20 hours per week",
+        "Business-day support",
+        "Bi-weekly updates",
+        "Up to 3 revisions",
+        "Basic project management"
+      ],
+      highlighted: false,
+      cta: "Choose Part-Time",
+      color: "secondary"
+    },
+    {
+      id: "3",
+      title: "Contract",
+      subtitle: "Project-Based Work",
+      price: "$100",
+      period: "hour",
+      description: "Best for specific features or short-term projects",
+      features: [
+        "Hourly billing",
+        "Flexible scheduling",
+        "Clear project scope",
+        "2 revision rounds",
+        "Direct communication"
+      ],
+      highlighted: false,
+      cta: "Hire Contract",
+      color: "accent"
+    }
+  ],
+  featuredProjects: [
+    {
+      id: "1",
+      title: "Nebula Dashboard",
+      description: "A cosmic-themed analytics dashboard with real-time data visualization",
+      category: "Web Application",
+      tags: ["React", "D3.js", "WebSockets", "Tailwind"],
+      imageUrl: "/projects/nebula.jpg",
+      liveUrl: "https://nebula.astral.dev",
+      githubUrl: "https://github.com/astral/nebula",
+      featured: true
+    },
+    {
+      id: "2",
+      title: "Orbit E-Commerce",
+      description: "Modern e-commerce platform with smooth animations and 3D product views",
+      category: "E-Commerce",
+      tags: ["Next.js", "Stripe", "Three.js", "Framer Motion"],
+      imageUrl: "/projects/orbit.jpg",
+      liveUrl: "https://orbit.shop",
+      featured: true
+    }
   ],
   awards: [
     {

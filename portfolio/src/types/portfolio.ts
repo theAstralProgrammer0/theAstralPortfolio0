@@ -70,6 +70,33 @@ export interface Award {
   description?: string;
 }
 
+// NEW: Pricing Plan Interface
+export interface PricingPlan {
+  id: string;
+  title: string;
+  subtitle: string;
+  price: string;
+  period: string;
+  description: string;
+  features: string[];
+  highlighted: boolean;
+  cta: string;
+  color: "primary" | "secondary" | "accent";
+}
+
+// NEW: Project Interface
+export interface Project {
+  id: string;
+  title: string;
+  description: string;
+  category: string;
+  tags: string[];
+  imageUrl: string;
+  liveUrl?: string;
+  githubUrl?: string;
+  featured: boolean;
+}
+
 export interface PortfolioData {
   personal: {
     name: string;
@@ -87,5 +114,7 @@ export interface PortfolioData {
   languages: string[];
   resumeUrl: string;
   cvUrl: string;
+  // NEW
+  pricingPlans: PricingPlan[];
+  featuredProjects: Project[];
 }
-

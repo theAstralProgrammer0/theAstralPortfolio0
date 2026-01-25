@@ -2,7 +2,6 @@
 // src/app/page.tsx
 // ============================================
 import dynamic from 'next/dynamic';
-import LenisWrapper from '@/components/LenisWrapper';
 
 /* Hero gets loading fallback 4 beta perf.*/
 const Hero = dynamic(() => import('@/components/sections/Hero'), {
@@ -21,7 +20,7 @@ const Contact = dynamic(() => import('@/components/sections/Contact'));
 
 export default function Home() {
   return (
-    <LenisWrapper>
+    <>
       <Hero />
 {/*
       <About />
@@ -30,10 +29,10 @@ export default function Home() {
       <Publications />
       <Education />
       <Certifications />
+*/}
       <Pricing />
       <Contact />
-*/}
-    </LenisWrapper>
+    </>
   );
 }
 

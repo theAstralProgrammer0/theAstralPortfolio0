@@ -11,12 +11,12 @@ import { astralPortfolioData } from '@/data/astral.data';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
-  const { contact } = astralPortfolioData.personal;
+  const { personal } = astralPortfolioData;
 
   const socialLinks = [
-    { icon: Github, url: contact.github, label: 'GitHub' },
-    { icon: Linkedin, url: contact.linkedin, label: 'LinkedIn' },
-    { icon: Mail, url: `mailto:${contact.email}`, label: 'Email' },
+    { icon: Github, url: personal.contact.github, label: 'GitHub' },
+    { icon: Linkedin, url: personal.contact.linkedin, label: 'LinkedIn' },
+    { icon: Mail, url: `mailto:${personal.contact.email}`, label: 'Email' },
   ];
 
   const scrollToTop = () => {
@@ -32,14 +32,14 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="w-10 h-10 rounded-lg bg-gradient-cosmic flex items-center justify-center font-bold text-white">
-                TD
+                tAP0
               </div>
-              <span className="text-text-primary font-semibold">
-                theAstralProgrammer
+              <span className="text-primary font-semibold">
+                theAstralProgrammer0
               </span>
             </div>
-            <p className="text-text-secondary text-sm">
-              Building scalable solutions across blockchain, health-tech, and government sectors.
+            <p className="text:wrap text-default text-sm">
+              {personal.summary}
             </p>
           </div>
 
@@ -47,7 +47,7 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="text-text-primary font-semibold">Quick Links</h3>
             <ul className="space-y-2">
-              {['About', 'Experience', 'Skills', 'Publications', 'Contact'].map((item) => (
+              {['About', 'Experience', 'Skills', 'Projects', 'Publications', 'Pricing', 'Contact'].map((item) => (
                 <li key={item}>
                   <a
                     href={`#${item.toLowerCase()}`}
@@ -64,15 +64,15 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="text-text-primary font-semibold">Connect</h3>
             <div className="space-y-2">
-              <p className="text-text-secondary text-sm">{contact.location}</p>
+              <p className="text-text-secondary text-sm">{personal.contact.location}</p>
               <a
-                href={`mailto:${contact.email}`}
+                href={`mailto:${personal.contact.email}`}
                 className="text-text-secondary hover:text-primary transition-colors text-sm block"
               >
-                {contact.email}
+                {personal.contact.email}
               </a>
               <a
-                href={contact.blog}
+                href={personal.contact.blog}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-text-secondary hover:text-primary transition-colors text-sm flex items-center gap-1"
