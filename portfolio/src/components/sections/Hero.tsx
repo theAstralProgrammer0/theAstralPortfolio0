@@ -213,7 +213,7 @@ export default function Hero() {
           </motion.div>
 
           {/* Scroll Hint */}
-          <div className="flex items-center justify-center gap-2 pt-6 text-text-secondary/80 animate-bounce">
+          <div className="flex items-center justify-center gap-2 pt-6 text-secondary/80 animate-bounce">
             <span>Scroll <FiArrowDown className="inline" /> to explore</span>
           </div>
         </motion.div>

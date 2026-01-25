@@ -18,6 +18,7 @@ const Certifications = dynamic(() => import('@/components/sections/Certification
 const Pricing = dynamic(() => import('@/components/sections/Pricing'));
 const Contact = dynamic(() => import('@/components/sections/Contact'));
 
+
 export default function Home() {
   return (
     <>
