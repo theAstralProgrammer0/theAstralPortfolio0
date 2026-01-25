@@ -32,9 +32,9 @@ export default function Hero() {
       <motion.div 
         className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary/30 rounded-full mix-blend-screen filter blur-3xl"
         animate={{
-          scale: [1, 1.2, 1],
-          x: [0, 30, 0],
-          y: [0, -30, 0],
+          scale: [2, 2.2, 2],
+          x: [70, 70, 0],
+          y: [0, 0, 70],
         }}
         transition={{
           duration: 8,
@@ -68,7 +68,7 @@ export default function Hero() {
           <Badge variant="outline" className="px-4 py-2 text-sm border-primary/50 bg-primary/10">
             <span className="relative flex h-2 w-2 mr-2">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-secondary"></span>
             </span>
             Available for opportunities
           </Badge>
@@ -109,7 +109,7 @@ export default function Hero() {
         >
           <Button
             size="lg"
-            className="group bg-gradient-cosmic hover:shadow-lg hover:shadow-primary/50 transition-all"
+            className="group border-primary/70 bg-gradient-cosmic hover:shadow-lg hover:shadow-secondary/70 transition-all"
             asChild
           >
             <a href="#contact">
@@ -121,7 +121,7 @@ export default function Hero() {
           <Button
             variant="outline"
             size="lg"
-            className="border-primary/50 hover:bg-primary/10"
+            className="border-primary/50 hover:bg-primary/10 transition-all duration-250 ease-in-out hover:glow-accent hover:text-accent"
             asChild
           >
             <a href={astralPortfolioData.resumeUrl} download>
@@ -131,9 +131,9 @@ export default function Hero() {
           </Button>
 
           <Button
-            variant="ghost"
+            variant="outline"
             size="lg"
-            className="hover:bg-surface/50"
+            className="hover:bg-surface/10 hover:border-primary/70 hover:text-white"
             asChild
           >
             <a href={astralPortfolioData.cvUrl} download>
@@ -167,30 +167,6 @@ export default function Hero() {
               </span>
             </motion.a>
           ))}
-        </motion.div>
-
-        {/* Scroll Indicator */}
-        <motion.div
-          variants={fadeInUp}
-          className="absolute bottom-8 left-1/2 -translate-x-1/2"
-        >
-          <motion.div
-            animate={{
-              y: [0, 10, 0]
-            }}
-            transition={{
-              duration: 1.5,
-              repeat: Infinity,
-              ease: 'easeInOut'
-            }}
-            className="flex flex-col items-center gap-2 cursor-pointer"
-            onClick={() => {
-              document.querySelector('#about')?.scrollIntoView({ behavior: 'smooth' });
-            }}
-          >
-            <span className="text-text-secondary text-sm">Scroll to explore</span>
-            <ArrowDown className="w-5 h-5 text-primary" />
-          </motion.div>
         </motion.div>
       </motion.div>
     </section>

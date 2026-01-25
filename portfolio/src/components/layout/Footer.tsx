@@ -98,8 +98,6 @@ export default function Footer() {
           </div>
         </div>
 
-        <Separator className="my-8" />
-
         {/* Bottom Bar */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-text-secondary text-sm">

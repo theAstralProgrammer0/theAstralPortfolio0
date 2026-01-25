@@ -6,7 +6,6 @@ import { Inter, JetBrains_Mono } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
-import ScrollProgress from '@/components/ScrollProgress';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -82,7 +81,6 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable}`}>
       <body className="min-h-screen bg-gradient-astral">
-        <ScrollProgress />
         <Header />
         <main className="relative">
           {children}
