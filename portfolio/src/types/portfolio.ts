@@ -70,7 +70,6 @@ export interface Award {
   description?: string;
 }
 
-// NEW: Pricing Plan Interface
 export interface PricingPlan {
   id: string;
   title: string;
@@ -84,7 +83,6 @@ export interface PricingPlan {
   color: "primary" | "secondary" | "accent";
 }
 
-// NEW: Project Interface
 export interface Project {
   id: string;
   title: string;
@@ -114,7 +112,6 @@ export interface PortfolioData {
   languages: string[];
   resumeUrl: string;
   cvUrl: string;
-  // NEW
   pricingPlans: PricingPlan[];
   featuredProjects: Project[];
 }

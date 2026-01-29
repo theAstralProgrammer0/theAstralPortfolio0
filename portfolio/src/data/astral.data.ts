@@ -1,5 +1,6 @@
 /*
  * This file contains all portfolio data for Astral 
+ * Updated with information from CV
  */
 
 import { PortfolioData } from "@/types/portfolio";
@@ -8,40 +9,48 @@ export const astralPortfolioData: PortfolioData = {
   personal: {
     name: "Temitayo Daisi-Oso",
     title: "Software Engineer | Project Manager | Full-Stack Developer",
-    tagline: "Building scalable solutions across blockchain, health-tech, and government sectors",
-    summary: "Results-driven Software Engineer and Project Manager with 7+ years of experience delivering secure, scalable, feature-rich full-stack applications, digital transformation projects, and blockchain solutions across multiple industries. Loves to create immersive web experiences with cutting-edge technologies.",
+    tagline: "Building scalable solutions across blockchain, health-tech, entertainment, and government sectors",
+    summary: "Innovative Software Engineer and Technical Project Manager with hands-on experience delivering scalable, secure, and user-centric digital products across government, health-tech, fintech, blockchain, and media sectors. Proven track record leading full-stack development, backend architecture, DevOps automation, and cross-functional teams on high-impact projects. Strong background in Electrical & Electronics Engineering, with a pragmatic, execution-driven approach to system design, performance optimization, and cost efficiency across the product lifecycle.",
     contact: {
       phone: "+234 814-230-5514",
-      phoneLink: "tel:+2348142305514",
-      email: "theastralprogrammer0@outlook.com",
+      phoneLink: "https://wa.me/2348142305514",
+      email: "tdaisioso@gmail.com",
       location: "Lagos, Nigeria",
       portfolio: "https://theastralprogrammer0.vercel.app",
       linkedin: "https://linkedin.com/in/tdaisioso",
       github: "https://github.com/theAstralProgrammer0",
-      discord: "theAstralProgrammer0",
-      blog: "https://https://the-astral-programmer0.hashnode.dev"
+      discord: "https://discord.com/users/1136228617655943239",
+      blog: "https://the-astral-programmer0.hashnode.dev"
     }
   },
   skills: [
     {
       category: "Technical Leadership",
-      items: ["Agile Project Management", "Team Leadership", "PRD/TDD Documentation", "Sprint Planning"]
+      items: ["Agile Project Management", "Team Leadership", "PRD/TDD Documentation", "Sprint Planning", "Product Management", "Code Reviews"]
     },
     {
       category: "Frontend Development",
-      items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "UI/UX Design", "Figma"]
+      items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "UI/UX Design", "Figma", "Vite"]
     },
     {
       category: "Backend Engineering",
-      items: ["Node.js", "Express", "Django", "Flask", "PostgreSQL", "MongoDB", "Redis"]
+      items: ["Node.js", "Express", "Django", "Flask", "PostgreSQL", "MongoDB", "Redis", "Prisma", "API Development"]
     },
     {
       category: "DevOps & Infrastructure",
-      items: ["Docker", "CI/CD", "Bash Scripting", "VPS Management", "Deployment Automation"]
+      items: ["Docker", "CI/CD", "Bash Scripting", "VPS Management", "Deployment", "Automation", "Migration", "Hostinger"]
     },
     {
       category: "Blockchain Development",
-      items: ["Solidity", "Smart Contracts", "NFT Development", "IPFS", "Hardhat"]
+      items: ["Solidity", "Smart Contract Development", "NFT", "IPFS", "PinataSDK", "Hardhat", "Web3.js", "OpenSea"]
+    },
+    {
+      category: "Additional Technical Skills",
+      items: ["Python", "JavaScript", "C", "C++", "HTML/CSS", "Git", "PayStack Integration", "AI Integration"]
+    },
+    {
+      category: "Soft Skills",
+      items: ["Leadership", "Critical Thinking", "Problem-Solving", "Effective Communication", "Teamwork", "Adaptability", "Strategic Thinking"]
     }
   ],
   workExperience: [
@@ -58,14 +67,17 @@ export const astralPortfolioData: PortfolioData = {
       overview: "Leading development and deployment of a data-secure and interoperable EMR system with focus on privacy, security, and multi-device responsiveness.",
       responsibilities: [
         "Spearheading planning and execution of multiple application suites for digital health platform",
+        "Creating UI/UX designs for multi-device compatibility, focusing on enhanced responsiveness",
         "Developed full-stack landing page using Next.js, React, TypeScript, and Tailwind CSS",
         "Built Django backend API integrating PostgreSQL and Redis for persistence and caching",
-        "Creating UI/UX designs for multi-device compatibility"
+        "Integrated front- and backend APIs seamlessly in alignment with design requirements",
+        "Populated database with custom article contents provided by the digital health company"
       ],
       achievements: [
         "Reduced initial load time by 90% through strategic caching mechanisms",
-        "Seeded PostgreSQL database with custom health articles, increasing user retention by 25%",
-        "Reduced overall project costs by 100% through strategic open-source implementation"
+        "Increased user retention by 25% by seeding PostgreSQL database with custom health articles",
+        "Reduced overall project costs by 100% through strategic open-source implementation",
+        "Successfully deployed front- and backend apps"
       ],
       technologies: ["Next.js", "React", "TypeScript", "Django", "PostgreSQL", "Redis", "Tailwind CSS"]
     },
@@ -81,19 +93,146 @@ export const astralPortfolioData: PortfolioData = {
       featured: true,
       overview: "Orchestrated and built robust frontend web application for state-level digital transformation project serving public-facing users in Lagos State.",
       responsibilities: [
-        "Built React frontend using Vite with TypeScript, implementing responsive and scalable architecture",
-        "Provided PRD and TDD documentation based on stakeholder requirements",
+        "Built React frontend using Vite with TypeScript and CSS languages",
+        "Provided PRD and TDD documentation based on approved stakeholder meetings",
+        "Storyboarded User Journeys and crafted User Stories for user-centric approach",
         "Designed user interfaces in Figma with focus on responsiveness and usability",
-        "Created Entity Relation Map (ERM) for efficient relational database management"
+        "Designed Entity Relation Map (ERM) to bolster efficient data storage and retrieval for relational database",
+        "Handled deployment and hosting responsibilities, ensuring platform uptime and reliability"
       ],
       achievements: [
         "Engineered seamless design-to-code flow, accelerating UI implementation cycles by 55%",
+        "Delivered scalable and dynamic frontend architecture that supports continued development",
         "Wrote automation scripts that reduced time-to-deploy by 70%",
-        "Deployed and maintained frontend application on Hostinger with high uptime reliability"
+        "Deployed frontend application to Hostinger with high uptime reliability"
       ],
-      technologies: ["React", "Vite", "TypeScript", "Figma", "PostgreSQL"]
+      technologies: ["React", "Vite", "TypeScript", "CSS", "Figma", "PostgreSQL", "Hostinger"]
     },
-    // Add other experiences following the same pattern
+    {
+      id: "global-relocate",
+      title: "Backend Engineer",
+      company: "Global Relocate",
+      companyUrl: "https://globalrelocate.com",
+      location: "Hamburg, Germany",
+      startDate: "2025-10",
+      endDate: "2025-12",
+      current: false,
+      featured: true,
+      overview: "Joined the project mid-development to restructure and align the backend with frontend requirements. Focused exclusively on backend engineering tasks, optimizing database structure and data flow.",
+      responsibilities: [
+        "Redesigned backend architecture using PostgreSQL and Prisma schema to ensure seamless integration with frontend",
+        "Implemented robust body validation parsers to maintain data integrity and prevent corruption",
+        "Integrated AI-driven content generation to dynamically populate the database with updated information",
+        "Managed migration of backend from one VPS to another, ensuring zero data loss and minimal downtime",
+        "Created deployment scripts to streamline updates from local development to production environments",
+        "Developed German tax calculator and laid groundwork for future country-specific tax tools"
+      ],
+      achievements: [
+        "Reduced AI prompting costs by approximately 77% through optimized resource usage",
+        "Seeded PostgreSQL database with AI-generated content for up to 250 countries efficiently",
+        "Ensured 100% data preservation during migration, eliminating potential data loss",
+        "Developed dynamic backend for streamlining data retrieval and population, reducing manual intervention by 100%"
+      ],
+      technologies: ["PostgreSQL", "Prisma", "Node.js", "AI Integration", "VPS", "DevOps"]
+    },
+    {
+      id: "letsrock",
+      title: "Technical YouTube Scriptwriter",
+      company: "LetsRock Media",
+      companyUrl: "",
+      location: "Tuttlingen, Germany",
+      startDate: "2024-09",
+      endDate: "2024-11",
+      current: false,
+      featured: false,
+      overview: "Crafted engaging, data-driven YouTube scripts and streamlined the content production pipeline for a digital media brand, directly contributing to sustained audience growth and retention.",
+      responsibilities: [
+        "Researched and authored scripts tailored to targeted audience demographics and channel tone",
+        "Analyzed engagement metrics (likes, shares, comments) to refine content direction",
+        "Developed internal tools to automate and optimize script ideation and delivery workflows",
+        "Maintained rigorous delivery schedule to meet content deadlines consistently"
+      ],
+      achievements: [
+        "Boosted viewer retention and engagement by 60% through analytical storytelling techniques",
+        "Enhanced production efficiency by 33%, reducing content turnaround time without sacrificing quality"
+      ],
+      technologies: ["Content Analytics", "Automation Tools", "Workflow Optimization"]
+    },
+    {
+      id: "ticquette",
+      title: "Founder & Chief Executive Officer",
+      company: "Ticquette LLC",
+      companyUrl: "",
+      location: "Lagos, Nigeria",
+      startDate: "2024-08",
+      endDate: "2024-09",
+      current: false,
+      featured: true,
+      overview: "Spearheaded the conceptualization, engineering, and development of a blockchain dapp that mints a Kiosk Space object into a simple NFT object, persists its metadata and Auto-Lists the NFT on OpenSea for sale or auction.",
+      responsibilities: [
+        "Conceived and designed product and its Unique Value Proposition for hackathon",
+        "Designed entire backend infrastructure and interaction with smart contract layer",
+        "Developed Express backend and Solidity smart contract to mint and persist Ticquette NFTs",
+        "Implemented CRUD operations to store NFT Metadata",
+        "Utilized Pinata SDK to pin NFT Metadata and obtained metadata CID for referencing on IPFS"
+      ],
+      achievements: [
+        "Reduced overall project costs by 100% through strategic implementation of open-source and free solutions",
+        "Successfully built scalable backend API and smart contract handling NFT metadata pinning, article posting, data caching, and other features",
+        "Implemented Auto-Listing for successfully minted Ticquette NFTs on OpenSea, eliminating manual listing",
+        "Finished as one of the best projects in the Hackathon and partook in pool prize"
+      ],
+      technologies: ["Solidity", "Express", "Node.js", "IPFS", "Pinata SDK", "OpenSea", "Smart Contracts", "NFT"]
+    },
+    {
+      id: "giveaid",
+      title: "Lead Engineer",
+      company: "GiveAid Foundation",
+      companyUrl: "",
+      location: "Lagos, Nigeria",
+      startDate: "2023-06",
+      endDate: "2023-07",
+      current: false,
+      featured: false,
+      overview: "Directed a small engineering team to deliver a full-stack web application for a philanthropic initiative, focusing on secure donation processing and backend performance optimization.",
+      responsibilities: [
+        "Oversaw end-to-end development and deployment of a feature-rich donation platform",
+        "Conducted agile sprints, code reviews, and team retrospectives to maintain development velocity",
+        "Integrated PayStack for secure online payments, improving donor trust and platform usability",
+        "Designed and implemented secure refresh token system for user authentication",
+        "Streamlined engineering processes and tooling"
+      ],
+      achievements: [
+        "Improved backend performance by 55% through secure tokenization and optimization techniques",
+        "Enhanced overall team efficiency by 75% through better workflow design and task delegation"
+      ],
+      technologies: ["Full-Stack Development", "PayStack", "Authentication", "Agile", "Team Leadership"]
+    },
+    {
+      id: "ipnx",
+      title: "Systems Administrator (Intern)",
+      company: "ipNX Nigeria Limited",
+      companyUrl: "",
+      location: "Lagos, Nigeria",
+      startDate: "2017-07",
+      endDate: "2018-01",
+      current: false,
+      featured: false,
+      overview: "Supported the IT infrastructure of a leading telecommunications provider by maintaining systems, onboarding users, and resolving network issues to improve overall uptime and performance.",
+      responsibilities: [
+        "Ran tests on hardware to detect faults and performed procurement duties by reaching out to vendors",
+        "Onboarded new staff and installed essential software on their machines",
+        "Performed diagnostics and resolved hardware and software issues, both on-site and remotely",
+        "Configured and maintained on-premises bare-metal servers for internal operations",
+        "Delivered routine maintenance and troubleshooting of network components"
+      ],
+      achievements: [
+        "Reduced employee downtime by 90% through proactive server configuration and hardware issue resolution",
+        "Installed essential software and prepared workstations for over 20 new employees",
+        "Improved network stability by 70% via Root-Cause analysis and rapid troubleshooting"
+      ],
+      technologies: ["Systems Administration", "Hardware Management", "Network Troubleshooting", "Server Configuration"]
+    }
   ],
   education: [
     {
@@ -105,7 +244,9 @@ export const astralPortfolioData: PortfolioData = {
       endDate: "2025-10",
       highlights: [
         "Specialization in Backend Engineering",
-        "Foundations in Software Engineering and Leadership Training"
+        "Foundations in Software Engineering",
+        "Foundations in Leadership Training",
+        "Participated in leadership program organized by ALX in partnership with Mastercard"
       ]
     },
     {
@@ -117,7 +258,34 @@ export const astralPortfolioData: PortfolioData = {
       endDate: "2023-03",
       highlights: [
         "Member of Society of Electrical Engineering Students (S.E.E.S)",
-        "Participant in Professor Ayodele Awojobi Design Competition"
+        "Participated in Professor Ayodele Awojobi Design Competition (P.A.A.D.C)",
+        "Member of Nigerian Society of Engineers, Lagos (N.S.E)"
+      ]
+    },
+    {
+      id: "nysc",
+      institution: "National Youth Service Corps",
+      degree: "NYSC Certificate",
+      field: "National Service",
+      startDate: "2025-07",
+      endDate: "Present",
+      highlights: [
+        "Acquired Certification in Electrical Installation (City and Guilds)",
+        "Acquired Certification in CCTV Installation (City and Guilds)",
+        "Elected group leader during SAED training"
+      ]
+    },
+    {
+      id: "secondary",
+      institution: "Good Shepherd Schools",
+      degree: "Senior Secondary School Certificate Examination",
+      field: "Secondary Education",
+      startDate: "2010-09",
+      endDate: "2016-09",
+      highlights: [
+        "Graduated with 8 distinctions and 1 credit",
+        "Elected 'Punctuality Prefect'",
+        "Vice-President of the Jets Club Society"
       ]
     }
   ],
@@ -130,13 +298,68 @@ export const astralPortfolioData: PortfolioData = {
       category: "technical"
     },
     {
+      id: "pmp",
+      name: "Project Management Professional (PMP)",
+      issuer: "Project Management Institute",
+      url: "",
+      category: "management"
+    },
+    {
       id: "hr-se",
       name: "HackerRank Software Engineer",
       issuer: "HackerRank",
       url: "https://www.hackerrank.com/certificates/a8cde1c70e36",
       category: "technical"
+    },
+    {
+      id: "hr-intern",
+      name: "HackerRank Software Engineering Intern",
+      issuer: "HackerRank",
+      url: "",
+      category: "technical"
+    },
+    {
+      id: "hr-problem",
+      name: "HackerRank Problem Solving",
+      issuer: "HackerRank",
+      url: "",
+      category: "technical"
+    },
+    {
+      id: "hr-python",
+      name: "HackerRank Python Programmer",
+      issuer: "HackerRank",
+      url: "",
+      category: "technical"
+    },
+    {
+      id: "hr-react",
+      name: "HackerRank Frontend React",
+      issuer: "HackerRank",
+      url: "",
+      category: "technical"
+    },
+    {
+      id: "pmp",
+      name: "Project Management Professional",
+      issuer: "Alpha Consultancy",
+      url: "",
+      category: "professional"
+    },
+    {
+      id: "cctv",
+      name: "CCTV Camera Installation",
+      issuer: "City and Guilds",
+      url: "",
+      category: "installation"
+    },
+    {
+      id: "electrical",
+      name: "Electrical Installation",
+      issuer: "City and Guilds",
+      url: "",
+      category: "installation"
     }
-    // Add others
   ],
   publications: [
     {
@@ -146,7 +369,6 @@ export const astralPortfolioData: PortfolioData = {
       description: "Deep dive into web architecture, DNS resolution, HTTP protocols, and browser rendering processes",
       topics: ["Web Architecture", "DNS", "HTTP", "Networking"]
     }
-    // Add other publications
   ], 
   pricingPlans: [
     {
@@ -225,6 +447,27 @@ export const astralPortfolioData: PortfolioData = {
       imageUrl: "/projects/orbit.jpg",
       liveUrl: "https://orbit.shop",
       featured: true
+    },
+    {
+      id: "3",
+      title: "Ticquette - Blockchain NFT Marketplace",
+      description: "Blockchain dapp that mints Kiosk Space objects into NFTs, persists metadata on IPFS, and auto-lists on OpenSea for sale or auction. Built for hackathon and finished as one of the best projects.",
+      category: "Blockchain",
+      tags: ["Solidity", "Express", "IPFS", "Pinata SDK", "OpenSea", "Smart Contracts"],
+      imageUrl: "/images/projects/ticquette.jpg",
+      githubUrl: "https://github.com/theAstralProgrammer0/ticquette",
+      featured: true
+    },
+    {
+      id: "4",
+      title: "Portfolio Website V3",
+      description: "Current portfolio with smooth scrolling, parallax effects, and advanced animations. Built with Next.js 14, Framer Motion, and Lenis for ultra-smooth scrolling experience.",
+      category: "Web Development",
+      tags: ["Next.js", "Framer Motion", "Lenis", "TypeScript", "Tailwind"],
+      imageUrl: "/images/projects/portfolio.jpg",
+      liveUrl: "https://theastralprogrammer0.vercel.app",
+      githubUrl: "https://github.com/theAstralProgrammer0/portfolio",
+      featured: true
     }
   ],
   awards: [
@@ -234,10 +477,31 @@ export const astralPortfolioData: PortfolioData = {
       organization: "Blockchain for Good Alliance",
       date: "2024-12",
       url: "https://x.com/DrAdaku/status/1872660959908806693"
+    },
+    {
+      id: "vwda2",
+      title: "VWDA 2.0 Aleo Foundation Hackathon Participant",
+      organization: "Aleo Foundation",
+      date: "2024-08",
+      url: ""
+    },
+    {
+      id: "genzhack",
+      title: "GenZHackFest Attendee",
+      organization: "University of Lagos",
+      date: "2023-09",
+      url: ""
+    },
+    {
+      id: "hacktober",
+      title: "Hacktober Fest Attendee",
+      organization: "University of Lagos",
+      date: "2023-10",
+      url: ""
     }
-    // Add others
   ],
-  languages: ["English (Native)", "French (Professional)", "German (Professional)"],
+  languages: ["English (Native)", "German (Professional)", "French (Professional)"],
   resumeUrl: "/resume.pdf",
   cvUrl: "/cv.pdf"
 };
+
