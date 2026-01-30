@@ -14,7 +14,7 @@ export const astralPortfolioData: PortfolioData = {
     contact: {
       phone: "+234 814-230-5514",
       phoneLink: "https://wa.me/2348142305514",
-      email: "tdaisioso@gmail.com",
+      email: "theastralprogrammer0@outlook.com",
       location: "Lagos, Nigeria",
       portfolio: "https://theastralprogrammer0.vercel.app",
       linkedin: "https://linkedin.com/in/tdaisioso",
@@ -139,7 +139,7 @@ export const astralPortfolioData: PortfolioData = {
       id: "letsrock",
       title: "Technical YouTube Scriptwriter",
       company: "LetsRock Media",
-      companyUrl: "",
+      companyUrl: "https://www.youtube.com/@stellaradocde",
       location: "Tuttlingen, Germany",
       startDate: "2024-09",
       endDate: "2024-11",
@@ -162,7 +162,7 @@ export const astralPortfolioData: PortfolioData = {
       id: "ticquette",
       title: "Founder & Chief Executive Officer",
       company: "Ticquette LLC",
-      companyUrl: "",
+      companyUrl: "https://github.com/theAstralProgrammer0/ticquette",
       location: "Lagos, Nigeria",
       startDate: "2024-08",
       endDate: "2024-09",
@@ -188,7 +188,7 @@ export const astralPortfolioData: PortfolioData = {
       id: "giveaid",
       title: "Lead Engineer",
       company: "GiveAid Foundation",
-      companyUrl: "",
+      companyUrl: "https://give-aid.vercel.app/",
       location: "Lagos, Nigeria",
       startDate: "2023-06",
       endDate: "2023-07",
@@ -212,7 +212,7 @@ export const astralPortfolioData: PortfolioData = {
       id: "ipnx",
       title: "Systems Administrator (Intern)",
       company: "ipNX Nigeria Limited",
-      companyUrl: "",
+      companyUrl: "https://ipnxnigeria.net",
       location: "Lagos, Nigeria",
       startDate: "2017-07",
       endDate: "2018-01",
@@ -298,13 +298,6 @@ export const astralPortfolioData: PortfolioData = {
       category: "technical"
     },
     {
-      id: "pmp",
-      name: "Project Management Professional (PMP)",
-      issuer: "Project Management Institute",
-      url: "",
-      category: "management"
-    },
-    {
       id: "hr-se",
       name: "HackerRank Software Engineer",
       issuer: "HackerRank",
@@ -315,59 +308,80 @@ export const astralPortfolioData: PortfolioData = {
       id: "hr-intern",
       name: "HackerRank Software Engineering Intern",
       issuer: "HackerRank",
-      url: "",
+      url: "https://www.hackerrank.com/certificates/df395bb8d265",
       category: "technical"
     },
     {
       id: "hr-problem",
       name: "HackerRank Problem Solving",
       issuer: "HackerRank",
-      url: "",
+      url: "https://www.hackerrank.com/certificates/ad4df539f61d",
       category: "technical"
     },
     {
       id: "hr-python",
       name: "HackerRank Python Programmer",
       issuer: "HackerRank",
-      url: "",
+      url: "https://www.hackerrank.com/certificates/7990790988bb",
       category: "technical"
     },
     {
       id: "hr-react",
       name: "HackerRank Frontend React",
       issuer: "HackerRank",
-      url: "",
+      url: "https://www.hackerrank.com/certificates/8271dcc48621",
       category: "technical"
     },
     {
       id: "pmp",
       name: "Project Management Professional",
       issuer: "Alpha Consultancy",
-      url: "",
+      url: "https://drive.google.com/file/d/19CN4CD-n1kZTCLQPEBq-WT4hmq-baI1G/view?usp=sharing",
       category: "professional"
     },
     {
       id: "cctv",
       name: "CCTV Camera Installation",
       issuer: "City and Guilds",
-      url: "",
+      url: "https://drive.google.com/file/d/12H1ZnaU2iMGXWiHMbQnt-Z8-AdXTKfUl/view",
       category: "installation"
     },
     {
       id: "electrical",
       name: "Electrical Installation",
       issuer: "City and Guilds",
-      url: "",
+      url: "https://drive.google.com/file/d/19ziNIuedz9Y3u_oKUhlcSHPIIUhyIYLd/view?usp=sharing",
       category: "installation"
     }
   ],
   publications: [
     {
-      id: "web-arch",
+      id: "1",
       title: "What Happens When You Type google.com in Your Browser and Press Enter",
       url: "https://the-astral-programmer0.hashnode.dev/what-happens-when-you-type-googlecom-in-your-browser-and-press-enter",
-      description: "Deep dive into web architecture, DNS resolution, HTTP protocols, and browser rendering processes",
-      topics: ["Web Architecture", "DNS", "HTTP", "Networking"]
+      description: "A deep dive into what really happens under the hood when a URL is entered in a browser, covering DNS resolution, TCP handshakes, HTTP requests, and browser rendering.",
+      topics: ["Web Architecture", "DNS", "HTTP", "Networking", "Browsers"]
+    },
+    {
+      id: "2",
+      title: "Cloning a Repository via SSH Authentication",
+      url: "https://the-astral-programmer0.hashnode.dev/clone-repo-via-ssh-auth",
+      description: "A practical guide to cloning GitHub repositories securely using SSH keys, including setup, configuration, and common pitfalls.",
+      topics: ["Git", "GitHub", "SSH", "Version Control", "Security"]
+    },
+    {
+      id: "3",
+      title: "Cloning a Repository via HTTPS with Fine-Grained Personal Access Token (PAT)",
+      url: "https://the-astral-programmer0.hashnode.dev/cloning-a-repository-via-https-with-fine-grained-personal-access-token-pat",
+      description: "A security-focused walkthrough on cloning repositories over HTTPS using GitHub fine-grained Personal Access Tokens instead of passwords.",
+      topics: ["Git", "GitHub", "HTTPS", "Access Control", "Security"]
+    },
+    {
+      id: "4",
+      title: "Why Is My Program Not Pausing?",
+      url: "https://the-astral-programmer0.hashnode.dev/why-is-my-program-not-pausing",
+      description: "An explanation of common reasons programs fail to pause as expected, especially for beginners, covering input buffering, execution flow, and language-specific behavior.",
+      topics: ["Debugging", "Programming Fundamentals", "Control Flow", "Beginner Pitfalls"]
     }
   ], 
   pricingPlans: [
@@ -375,7 +389,7 @@ export const astralPortfolioData: PortfolioData = {
       id: "1",
       title: "Full-Time",
       subtitle: "Dedicated Development",
-      price: "$5,000",
+      price: "$700",
       period: "month",
       description: "Perfect for long-term projects requiring dedicated attention",
       features: [
@@ -385,7 +399,7 @@ export const astralPortfolioData: PortfolioData = {
         "Unlimited revisions",
         "Project management included"
       ],
-      highlighted: true,
+      highlighted: false,
       cta: "Start Full-Time Project",
       color: "primary"
     },
@@ -393,8 +407,8 @@ export const astralPortfolioData: PortfolioData = {
       id: "2",
       title: "Part-Time",
       subtitle: "Flexible Collaboration",
-      price: "$3,000",
-      period: "month",
+      price: "$7",
+      period: "hour",
       description: "Ideal for ongoing maintenance or smaller feature development",
       features: [
         "20 hours per week",
@@ -403,7 +417,7 @@ export const astralPortfolioData: PortfolioData = {
         "Up to 3 revisions",
         "Basic project management"
       ],
-      highlighted: false,
+      highlighted: true,
       cta: "Choose Part-Time",
       color: "secondary"
     },
@@ -411,8 +425,8 @@ export const astralPortfolioData: PortfolioData = {
       id: "3",
       title: "Contract",
       subtitle: "Project-Based Work",
-      price: "$100",
-      period: "hour",
+      price: "Custom",
+      period: "year",
       description: "Best for specific features or short-term projects",
       features: [
         "Hourly billing",
@@ -429,34 +443,33 @@ export const astralPortfolioData: PortfolioData = {
   featuredProjects: [
     {
       id: "1",
-      title: "Nebula Dashboard",
-      description: "A cosmic-themed analytics dashboard with real-time data visualization",
-      category: "Web Application",
-      tags: ["React", "D3.js", "WebSockets", "Tailwind"],
-      imageUrl: "/projects/nebula.jpg",
-      liveUrl: "https://nebula.astral.dev",
-      githubUrl: "https://github.com/astral/nebula",
-      featured: true
+      title: "monty",
+      description: "This is the repository where I implement the operations of a stack",
+      category: "DSA",
+      tags: ["C", "Brainfuck"],
+      imageUrl: "/images/projects-dsa.png",
+      liveUrl: "https://github.com/theAstralProgrammer0/monty",
+      featured: false
     },
     {
       id: "2",
-      title: "Orbit E-Commerce",
-      description: "Modern e-commerce platform with smooth animations and 3D product views",
-      category: "E-Commerce",
-      tags: ["Next.js", "Stripe", "Three.js", "Framer Motion"],
-      imageUrl: "/projects/orbit.jpg",
-      liveUrl: "https://orbit.shop",
-      featured: true
+      title: "TodoAPI - Task Manager",
+      description: "An ASP.NET Core backend project that demonstrates ability to build Web APIs and deploy them in docker containers",
+      category: "API & DevOps",
+      tags: [".NET", "C#", "Shell", "Docker", "Dockerfile"],
+      imageUrl: "/images/projects-api.png",
+      githubUrl: "https://github.com/theAstralProgrammer0/aspnetcore-todo-docker",
+      featured: false
     },
     {
       id: "3",
-      title: "Ticquette - Blockchain NFT Marketplace",
-      description: "Blockchain dapp that mints Kiosk Space objects into NFTs, persists metadata on IPFS, and auto-lists on OpenSea for sale or auction. Built for hackathon and finished as one of the best projects.",
-      category: "Blockchain",
-      tags: ["Solidity", "Express", "IPFS", "Pinata SDK", "OpenSea", "Smart Contracts"],
-      imageUrl: "/images/projects/ticquette.jpg",
-      githubUrl: "https://github.com/theAstralProgrammer0/ticquette",
-      featured: true
+      title: "Simple Shell",
+      description: "This is a lightweight, minimalistic, custom implementation of the UNIX-Shell.",
+      category: "Low-Level Engineering",
+      tags: ["C", "Makefile"],
+      imageUrl: "/images/projects-ll-eng.png",
+      githubUrl: "https://github.com/theAstralProgrammer0/simple_shell",
+      featured: false
     },
     {
       id: "4",
@@ -464,40 +477,47 @@ export const astralPortfolioData: PortfolioData = {
       description: "Current portfolio with smooth scrolling, parallax effects, and advanced animations. Built with Next.js 14, Framer Motion, and Lenis for ultra-smooth scrolling experience.",
       category: "Web Development",
       tags: ["Next.js", "Framer Motion", "Lenis", "TypeScript", "Tailwind"],
-      imageUrl: "/images/projects/portfolio.jpg",
+      imageUrl: "/images/projects-web-dev.png",
       liveUrl: "https://theastralprogrammer0.vercel.app",
       githubUrl: "https://github.com/theAstralProgrammer0/portfolio",
-      featured: true
+      featured: false
     }
   ],
   awards: [
     {
+      id: "alx-leader",
+      title: "Leadership Program by ALX & MasterCard",
+      organization: "ALX X MasterCard",
+      date: "2023-04",
+      url: "https://www.alxafrica.com/"
+    },
+    {
       id: "vwda3",
-      title: "VWDA 3.0 BGA Hackathon Participant",
+      title: "VWDA 3.0 BGA Hackathon Winner",
       organization: "Blockchain for Good Alliance",
       date: "2024-12",
       url: "https://x.com/DrAdaku/status/1872660959908806693"
     },
     {
       id: "vwda2",
-      title: "VWDA 2.0 Aleo Foundation Hackathon Participant",
+      title: "VWDA 2.0 Aleo Foundation Hackathon Winner",
       organization: "Aleo Foundation",
       date: "2024-08",
-      url: ""
+      url: "https://x.com/DrAdaku/status/1748778320362176595"
     },
     {
       id: "genzhack",
       title: "GenZHackFest Attendee",
       organization: "University of Lagos",
       date: "2023-09",
-      url: ""
+      url: "https://photos.google.com/share/AF1QipOMu1iJOiOysEnJ2iMkYwtpRfIiye9MkPJ3qbZ-3emRUDjPaNOVD_Xp3kBulQ4U_g/photo/AF1QipNndTBl3BNe2be2Q06R1jA5HhIMTRK1tIdQRqb3?key=bW9MRkRwd1hTUFBXcndQbTZOdGtZYVE5eTNseWdn"
     },
     {
       id: "hacktober",
       title: "Hacktober Fest Attendee",
       organization: "University of Lagos",
       date: "2023-10",
-      url: ""
+      url: "https://www.linkedin.com/posts/dscunilag_hacktoberfest-opensource-gdscunilag-activity-7117932063369891840-itFC?utm_source=share&utm_medium=member_desktop"
     }
   ],
   languages: ["English (Native)", "German (Professional)", "French (Professional)"],

@@ -1,6 +1,6 @@
 "use client";
 
-import { ReactLenis } from "lenis/dist/lenis-react";
+import { ReactLenis } from "lenis/react";
 import { ReactNode } from "react";
 
 export default function LenisProvider({ children }: { children: ReactNode }) {
@@ -8,10 +8,9 @@ export default function LenisProvider({ children }: { children: ReactNode }) {
     <ReactLenis
       root
       options={{
-        lerp: 0.05,
+        lerp: 0.6,
         duration: 1.5,
         smoothWheel: true,
-        smoothTouch: false,
         wheelMultiplier: 1,
         touchMultiplier: 2,
         infinite: false,
