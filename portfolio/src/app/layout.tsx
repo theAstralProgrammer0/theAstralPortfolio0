@@ -1,5 +1,5 @@
 // ============================================
-// src/app/layout.tsx
+// src/app/layout.tsx - CORRECTED
 // ============================================
 import type { Metadata } from 'next';
 import { Inter, JetBrains_Mono } from 'next/font/google';
@@ -21,7 +21,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Temitayo Daisi-Oso | Software Engineer & Project Manager',
+  title: 'Temitayo Daisi-Oso | Software Engineer',
   description: 'Full-stack developer with 7+ years of experience delivering scalable applications, digital transformation projects, and blockchain solutions across government, health-tech, and fintech sectors.',
   keywords: [
     'Software Engineer',
@@ -39,13 +39,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://your-domain.com',
-    title: 'Temitayo Daisi-Oso | Software Engineer & Project Manager',
+    url: 'https://theastralprogrammer0.vercel.app',
+    title: 'Temitayo Daisi-Oso | Software Engineer',
     description: 'Full-stack developer with 7+ years of experience delivering scalable applications and blockchain solutions.',
     siteName: 'Temitayo Daisi-Oso Portfolio',
     images: [
       {
-        url: '/og-image.png',
+        url: '/images/parallax-3.jpg',
         width: 1200,
         height: 630,
         alt: 'Temitayo Daisi-Oso Portfolio',
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Temitayo Daisi-Oso | Software Engineer & Project Manager',
     description: 'Full-stack developer with 7+ years of experience',
-    images: ['/og-image.png'],
+    images: ['/images/parallax-3.jpg'],
   },
   robots: {
     index: true,
@@ -81,6 +81,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable}`}>
+      <head>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+      </head>
       <body className="min-h-screen bg-gradient-astral">
         <LenisProvider>
           <Header />

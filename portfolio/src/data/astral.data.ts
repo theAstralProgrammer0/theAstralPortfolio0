@@ -448,7 +448,7 @@ export const astralPortfolioData: PortfolioData = {
       category: "DSA",
       tags: ["C", "Brainfuck"],
       imageUrl: "/images/projects-dsa.png",
-      liveUrl: "https://github.com/theAstralProgrammer0/monty",
+      githubUrl: "https://github.com/theAstralProgrammer0/monty",
       featured: false
     },
     {

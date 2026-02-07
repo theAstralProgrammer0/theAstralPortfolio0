@@ -35,10 +35,10 @@ export default function Experience() {
           </p>
         </motion.div>
 
-        {/* Card Stack Container - FIXED: Better scrolling */}
+        {/* Card Stack Container */}
         <div className="relative min-h-[200vh]">
           {workExperience.map((exp, index) => {
-            // FIXED: Calculate targetScale based on index and total cards
+            // Calculate targetScale based on index and totalCards
             const totalCards = workExperience.length;
             const targetScale = 1 - ((totalCards - index - 1) * 0.03); // Reduced scale difference
             
@@ -50,7 +50,7 @@ export default function Experience() {
                 progress={scrollYProgress}
                 range={[
                   (index / totalCards) * 0.5, // Start point
-                  ((index + 1) / totalCards) * 1.5 // End point - FIXED BUG
+                  ((index + 1) / totalCards) * 1.5 // End point
                 ]}
                 targetScale={targetScale}
               />
@@ -84,9 +84,9 @@ const Card = ({ exp, index, progress, range, targetScale }: CardProps) => {
   return (
     <div 
       ref={container} 
-      className="sticky top-32" // FIXED: Simplified positioning
+      className=""
       style={{ 
-        marginTop: `${index * 60}px`, // Stacking effect
+        marginTop: `${index * 60}px`, 
       }} 
     >
       <motion.div
@@ -99,7 +99,6 @@ const Card = ({ exp, index, progress, range, targetScale }: CardProps) => {
         transition={{ 
           duration: 0.7, 
           ease: "easeOut",
-          delay: index * 0.1 // Staggered animation
         }}
         viewport={{ once: true, margin: "-100px" }}
         className="w-full max-w-3xl mx-auto bg-zinc-900/90 backdrop-blur-md rounded-3xl border border-white/10 shadow-2xl overflow-hidden"
