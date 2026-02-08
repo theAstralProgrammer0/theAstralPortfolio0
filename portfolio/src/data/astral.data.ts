@@ -46,7 +46,7 @@ export const astralPortfolioData: PortfolioData = {
     },
     {
       category: "Additional Technical Skills",
-      items: ["Python", "JavaScript", "C", "C++", "HTML/CSS", "Git", "PayStack Integration", "AI Integration"]
+      items: ["Linux", "Python", "JavaScript", "C", "C++", "HTML/CSS", "Git", "PayStack Integration", "AI Integration"]
     },
     {
       category: "Soft Skills",
