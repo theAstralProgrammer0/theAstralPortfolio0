@@ -8,7 +8,7 @@ import { PortfolioData } from "@/types/portfolio";
 export const astralPortfolioData: PortfolioData = {
   personal: {
     name: "Temitayo Daisi-Oso",
-    title: "Software Engineer | Project Manager | Full-Stack Developer",
+    title: "Software Engineer | Artificial Intelligence | Full-Stack",
     tagline: "Building scalable solutions across blockchain, health-tech, entertainment, and government sectors",
     summary: "Innovative Software Engineer and Technical Project Manager with hands-on experience delivering scalable, secure, and user-centric digital products across government, health-tech, fintech, blockchain, and media sectors. Proven track record leading full-stack development, backend architecture, DevOps automation, and cross-functional teams on high-impact projects. Strong background in Electrical & Electronics Engineering, with a pragmatic, execution-driven approach to system design, performance optimization, and cost efficiency across the product lifecycle.",
     contact: {
