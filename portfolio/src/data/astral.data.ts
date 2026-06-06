@@ -1,5 +1,5 @@
 /*
- * This file contains all portfolio data for Astral 
+ * This file contains all portfolio data for Astral
  * Updated with information from CV
  */
 
@@ -8,9 +8,9 @@ import { PortfolioData } from "@/types/portfolio";
 export const astralPortfolioData: PortfolioData = {
   personal: {
     name: "Temitayo Daisi-Oso",
-    title: "Software Engineer | Artificial Intelligence | Full-Stack",
-    tagline: "Building scalable solutions across blockchain, health-tech, entertainment, and government sectors",
-    summary: "Innovative Software Engineer and Technical Project Manager with hands-on experience delivering scalable, secure, and user-centric digital products across government, health-tech, fintech, blockchain, and media sectors. Proven track record leading full-stack development, backend architecture, DevOps automation, and cross-functional teams on high-impact projects. Strong background in Electrical & Electronics Engineering, with a pragmatic, execution-driven approach to system design, performance optimization, and cost efficiency across the product lifecycle.",
+    title: "Software Engineer | AI Engineer | Full-Stack Developer",
+    tagline: "Building intelligent, scalable solutions across AI, health-tech, blockchain, and government sectors",
+    summary: "Innovative Software Engineer and AI Engineer with hands-on experience delivering scalable, secure, and user-centric digital products across government, health-tech, fintech, blockchain, and media sectors. Currently building TheoEMR — an AI-powered Electronic Medical Records and TeleHealth platform at Xeventy2.0 Health. Proven track record leading full-stack development, backend architecture, DevOps automation, and cross-functional teams on high-impact projects. NYSC Alumni.",
     contact: {
       phone: "+234 814-230-5514",
       phoneLink: "https://wa.me/2348142305514",
@@ -25,28 +25,47 @@ export const astralPortfolioData: PortfolioData = {
   },
   skills: [
     {
+      category: "Artificial Intelligence & ML",
+      items: [
+        "LLM Integration",
+        "Prompt Engineering",
+        "RAG Systems",
+        "OpenAI API",
+        "Anthropic Claude",
+        "LangChain",
+        "Hugging Face",
+        "Vector Databases",
+        "AI Automation",
+        "AI in Health-Tech"
+      ]
+    },
+    {
       category: "Technical Leadership",
       items: ["Agile Project Management", "Team Leadership", "PRD/TDD Documentation", "Sprint Planning", "Product Management", "Code Reviews"]
     },
     {
       category: "Frontend Development",
-      items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "UI/UX Design", "Figma", "Vite"]
+      items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "UI/UX Design", "Figma", "Vite", "Framer Motion"]
     },
     {
       category: "Backend Engineering",
-      items: ["Node.js", "Express", "Django", "Flask", "PostgreSQL", "MongoDB", "Redis", "Prisma", "API Development"]
+      items: ["Node.js", "Express", "Django", "Flask", "PostgreSQL", "MongoDB", "Redis", "Prisma", "ASP.NET Core", "API Development"]
     },
     {
       category: "DevOps & Infrastructure",
-      items: ["Docker", "CI/CD", "Bash Scripting", "VPS Management", "Deployment", "Automation", "Migration", "Hostinger"]
+      items: ["Docker", "CI/CD", "Bash Scripting", "VPS Management", "Nginx", "Hostinger", "Vercel", "Deployment Automation"]
     },
     {
       category: "Blockchain Development",
-      items: ["Solidity", "Smart Contract Development", "NFT", "IPFS", "PinataSDK", "Hardhat", "Web3.js", "OpenSea"]
+      items: ["Solidity", "Smart Contract Development", "NFT", "IPFS", "Pinata SDK", "Hardhat", "Web3.js", "OpenSea API"]
+    },
+    {
+      category: "Systems & Low-Level",
+      items: ["C", "C++", "Rust", "Go", "Assembly", "Linux", "Systems Programming", "UNIX Shell"]
     },
     {
       category: "Additional Technical Skills",
-      items: ["Linux", "Python", "JavaScript", "C", "C++", "HTML/CSS", "Git", "PayStack Integration", "AI Integration"]
+      items: ["Python", "JavaScript", "HTML/CSS", "Git", "PayStack Integration", "AI Integration", "REST APIs", "WebSockets"]
     },
     {
       category: "Soft Skills",
@@ -64,22 +83,25 @@ export const astralPortfolioData: PortfolioData = {
       endDate: "Present",
       current: true,
       featured: true,
-      overview: "Leading development and deployment of a data-secure and interoperable EMR system with focus on privacy, security, and multi-device responsiveness.",
+      overview: "Leading the design, development, and deployment of TheoEMR — a data-secure, AI-powered Electronic Medical Records and TeleHealth platform with a focus on privacy, interoperability, and multi-device responsiveness.",
       responsibilities: [
-        "Spearheading planning and execution of multiple application suites for digital health platform",
+        "Architecting and building TheoEMR — an AI-powered EMR system integrating LLM-driven clinical note generation and RAG-based medical knowledge retrieval",
+        "Spearheading planning and execution of multiple application suites for the Xeventy2.0 Health digital platform",
         "Creating UI/UX designs for multi-device compatibility, focusing on enhanced responsiveness",
         "Developed full-stack landing page using Next.js, React, TypeScript, and Tailwind CSS",
         "Built Django backend API integrating PostgreSQL and Redis for persistence and caching",
         "Integrated front- and backend APIs seamlessly in alignment with design requirements",
-        "Populated database with custom article contents provided by the digital health company"
+        "Populated database with custom article contents provided by the digital health company",
+        "Integrating AI automation into patient interaction flows and clinical decision support"
       ],
       achievements: [
         "Reduced initial load time by 90% through strategic caching mechanisms",
         "Increased user retention by 25% by seeding PostgreSQL database with custom health articles",
         "Reduced overall project costs by 100% through strategic open-source implementation",
-        "Successfully deployed front- and backend apps"
+        "Successfully deployed front- and backend apps",
+        "Designed and prototyped AI-assisted clinical documentation reducing physician entry time by an estimated 60%"
       ],
-      technologies: ["Next.js", "React", "TypeScript", "Django", "PostgreSQL", "Redis", "Tailwind CSS"]
+      technologies: ["Next.js", "React", "TypeScript", "Django", "PostgreSQL", "Redis", "Tailwind CSS", "OpenAI API", "LangChain", "RAG", "Figma"]
     },
     {
       id: "lasisma",
@@ -91,7 +113,7 @@ export const astralPortfolioData: PortfolioData = {
       endDate: "2026-01",
       current: false,
       featured: true,
-      overview: "Orchestrated and built robust frontend web application for state-level digital transformation project serving public-facing users in Lagos State.",
+      overview: "Orchestrated and built a robust public-facing web application for Lagos State's digital transformation initiative, enabling citizens to interact with informal space management services online.",
       responsibilities: [
         "Built React frontend using Vite with TypeScript and CSS languages",
         "Provided PRD and TDD documentation based on approved stakeholder meetings",
@@ -236,6 +258,21 @@ export const astralPortfolioData: PortfolioData = {
   ],
   education: [
     {
+      id: "nysc",
+      institution: "National Youth Service Corps (NYSC)",
+      degree: "Certificate of National Service",
+      field: "Alumni",
+      startDate: "2025-07",
+      endDate: "2026-06",
+      highlights: [
+        "Completed mandatory national service as an engineer contributing to digital transformation",
+        "Acquired Certification in Electrical Installation (City and Guilds)",
+        "Acquired Certification in CCTV Installation (City and Guilds)",
+        "Elected group leader during SAED training",
+        "NYSC Alumni 🇳🇬"
+      ]
+    },
+    {
       id: "alx",
       institution: "ALX Software Engineering Program",
       degree: "Nanodegree in Software Engineering",
@@ -260,19 +297,6 @@ export const astralPortfolioData: PortfolioData = {
         "Member of Society of Electrical Engineering Students (S.E.E.S)",
         "Participated in Professor Ayodele Awojobi Design Competition (P.A.A.D.C)",
         "Member of Nigerian Society of Engineers, Lagos (N.S.E)"
-      ]
-    },
-    {
-      id: "nysc",
-      institution: "National Youth Service Corps",
-      degree: "NYSC Certificate",
-      field: "National Service",
-      startDate: "2025-07",
-      endDate: "Present",
-      highlights: [
-        "Acquired Certification in Electrical Installation (City and Guilds)",
-        "Acquired Certification in CCTV Installation (City and Guilds)",
-        "Elected group leader during SAED training"
       ]
     },
     {
@@ -383,7 +407,44 @@ export const astralPortfolioData: PortfolioData = {
       description: "An explanation of common reasons programs fail to pause as expected, especially for beginners, covering input buffering, execution flow, and language-specific behavior.",
       topics: ["Debugging", "Programming Fundamentals", "Control Flow", "Beginner Pitfalls"]
     }
-  ], 
+  ],
+  awards: [
+    {
+      id: "alx-leader",
+      title: "Leadership Program by ALX & MasterCard",
+      organization: "ALX X MasterCard",
+      date: "2023-04",
+      url: "https://www.alxafrica.com/"
+    },
+    {
+      id: "vwda3",
+      title: "VWDA 3.0 BGA Hackathon Participant",
+      organization: "Blockchain for Good Alliance",
+      date: "2024-12",
+      url: "https://x.com/DrAdaku/status/1872660959908806693"
+    },
+    {
+      id: "vwda2",
+      title: "VWDA 2.0 Aleo Foundation Hackathon Winner",
+      organization: "Aleo Foundation",
+      date: "2024-08",
+      url: "https://x.com/DrAdaku/status/1748778320362176595"
+    },
+    {
+      id: "genzhack",
+      title: "GenZHackFest Attendee",
+      organization: "University of Lagos",
+      date: "2023-09",
+      url: "https://photos.google.com/share/AF1QipOMu1iJOiOysEnJ2iMkYwtpRfIiye9MkPJ3qbZ-3emRUDjPaNOVD_Xp3kBulQ4U_g/photo/AF1QipNndTBl3BNe2be2Q06R1jA5HhIMTRK1tIdQRqb3?key=bW9MRkRwd1hTUFBXcndQbTZOdGtZYVE5eTNseWdn"
+    },
+    {
+      id: "hacktober",
+      title: "Hacktober Fest Attendee",
+      organization: "University of Lagos",
+      date: "2023-10",
+      url: "https://www.linkedin.com/posts/dscunilag_hacktoberfest-opensource-gdscunilag-activity-7117932063369891840-itFC?utm_source=share&utm_medium=member_desktop"
+    }
+  ],
   pricingPlans: [
     {
       id: "1",
@@ -483,45 +544,7 @@ export const astralPortfolioData: PortfolioData = {
       featured: false
     }
   ],
-  awards: [
-    {
-      id: "alx-leader",
-      title: "Leadership Program by ALX & MasterCard",
-      organization: "ALX X MasterCard",
-      date: "2023-04",
-      url: "https://www.alxafrica.com/"
-    },
-    {
-      id: "vwda3",
-      title: "VWDA 3.0 BGA Hackathon Winner",
-      organization: "Blockchain for Good Alliance",
-      date: "2024-12",
-      url: "https://x.com/DrAdaku/status/1872660959908806693"
-    },
-    {
-      id: "vwda2",
-      title: "VWDA 2.0 Aleo Foundation Hackathon Winner",
-      organization: "Aleo Foundation",
-      date: "2024-08",
-      url: "https://x.com/DrAdaku/status/1748778320362176595"
-    },
-    {
-      id: "genzhack",
-      title: "GenZHackFest Attendee",
-      organization: "University of Lagos",
-      date: "2023-09",
-      url: "https://photos.google.com/share/AF1QipOMu1iJOiOysEnJ2iMkYwtpRfIiye9MkPJ3qbZ-3emRUDjPaNOVD_Xp3kBulQ4U_g/photo/AF1QipNndTBl3BNe2be2Q06R1jA5HhIMTRK1tIdQRqb3?key=bW9MRkRwd1hTUFBXcndQbTZOdGtZYVE5eTNseWdn"
-    },
-    {
-      id: "hacktober",
-      title: "Hacktober Fest Attendee",
-      organization: "University of Lagos",
-      date: "2023-10",
-      url: "https://www.linkedin.com/posts/dscunilag_hacktoberfest-opensource-gdscunilag-activity-7117932063369891840-itFC?utm_source=share&utm_medium=member_desktop"
-    }
-  ],
   languages: ["English (Native)", "German (Professional)", "French (Professional)"],
   resumeUrl: "/resume.pdf",
   cvUrl: "/cv.pdf"
 };
-
