@@ -10,7 +10,7 @@ export const astralPortfolioData: PortfolioData = {
     name: "Temitayo Daisi-Oso",
     title: "Software Engineer | AI Engineer | Full-Stack Developer",
     tagline: "Building intelligent, scalable solutions across AI, health-tech, blockchain, and government sectors",
-    summary: "Innovative Software Engineer and AI Engineer with hands-on experience delivering scalable, secure, and user-centric digital products across government, health-tech, fintech, blockchain, and media sectors. Currently building TheoEMR — an AI-powered Electronic Medical Records and TeleHealth platform — and founding FanForge, an on-chain fan economy for music creators. Proven track record leading full-stack development, backend architecture, DevOps automation, and cross-functional teams on high-impact projects. NYSC Alumni.",
+    summary: "Innovative Software Engineer and AI Engineer with hands-on experience delivering scalable, secure, and user-centric digital products across government, health-tech, fintech, blockchain, and media sectors. Currently building TheoEMR for Theo Hospital, founding FanForge at the Aomi Labs hackathon, and serving as CTO of Xeventy2.0 Health. Proven track record leading full-stack development, AI integration, DevOps automation, and cross-functional teams on high-impact projects. NYSC Alumni.",
     contact: {
       phone: "+234 814-230-5514",
       phoneLink: "https://wa.me/2348142305514",
@@ -99,8 +99,35 @@ export const astralPortfolioData: PortfolioData = {
       technologies: ["Rust", "Base", "Zora", "Aomi SDK", "Smart Contracts", "Telegram Bot API", "On-chain", "Web3"]
     },
     {
+      id: "theoemr",
+      title: "Lead Software Engineer — EMR & AI Systems",
+      company: "Theo Hospital",
+      companyUrl: "#",
+      location: "Lagos, Nigeria",
+      startDate: "2025-01",
+      endDate: "Present",
+      current: true,
+      featured: true,
+      overview: "Actively designing and building TheoEMR — an AI-powered Electronic Medical Records and TeleHealth system for Theo Hospital, with a focus on LLM-driven clinical workflows, data security, and multi-device responsiveness.",
+      responsibilities: [
+        "Architecting and building the full EMR system: patient records, clinical notes, appointment scheduling, and TeleHealth modules",
+        "Integrating LLM-driven clinical note generation to reduce physician documentation time",
+        "Building a RAG pipeline for real-time medical knowledge retrieval during consultations",
+        "Developing Django REST API backend with PostgreSQL for structured health records and Redis for caching",
+        "Integrating AI automation into patient interaction flows and clinical decision support",
+        "Designing and implementing secure, HIPAA-aligned data models for sensitive patient data"
+      ],
+      achievements: [
+        "Designed and prototyped AI-assisted clinical documentation reducing physician entry time by an estimated 60%",
+        "Built end-to-end RAG pipeline connecting LLMs to a curated medical knowledge base",
+        "Reduced overall infrastructure costs by 100% through strategic open-source implementation",
+        "Successfully deployed and validated core EMR modules in a staging environment"
+      ],
+      technologies: ["Django", "PostgreSQL", "Redis", "Python", "OpenAI API", "LangChain", "RAG", "Next.js", "React", "TypeScript", "Tailwind CSS"]
+    },
+    {
       id: "xeventy",
-      title: "Chief Technology Officer & Lead Engineer",
+      title: "Chief Technology Officer & Founding Engineer",
       company: "Xeventy2.0 Health Limited",
       companyUrl: "https://x2h.vercel.app",
       location: "Lagos, Nigeria",
@@ -108,25 +135,22 @@ export const astralPortfolioData: PortfolioData = {
       endDate: "Present",
       current: true,
       featured: true,
-      overview: "Leading the design, development, and deployment of TheoEMR — a data-secure, AI-powered Electronic Medical Records and TeleHealth platform with a focus on privacy, interoperability, and multi-device responsiveness.",
+      overview: "Co-founding and leading the technical direction of Xeventy2.0 Health — a digital health startup. Built the company's public-facing landing page and is actively architecting the Xeventy2.0 EMR platform from the ground up.",
       responsibilities: [
-        "Architecting and building TheoEMR — an AI-powered EMR system integrating LLM-driven clinical note generation and RAG-based medical knowledge retrieval",
-        "Spearheading planning and execution of multiple application suites for the Xeventy2.0 Health digital platform",
-        "Creating UI/UX designs for multi-device compatibility, focusing on enhanced responsiveness",
-        "Developed full-stack landing page using Next.js, React, TypeScript, and Tailwind CSS",
-        "Built Django backend API integrating PostgreSQL and Redis for persistence and caching",
+        "Spearheading product planning, technical roadmap, and execution strategy for the Xeventy2.0 Health digital platform",
+        "Developed and deployed the full-stack company landing page using Next.js, React, TypeScript, and Tailwind CSS",
+        "Creating UI/UX designs for multi-device compatibility with Figma, focusing on accessibility and responsiveness",
+        "Architecting the Xeventy2.0 EMR system — defining data models, system boundaries, and integration patterns",
         "Integrated front- and backend APIs seamlessly in alignment with design requirements",
-        "Populated database with custom article contents provided by the digital health company",
-        "Integrating AI automation into patient interaction flows and clinical decision support"
+        "Populated database with curated health articles to drive early user engagement"
       ],
       achievements: [
-        "Reduced initial load time by 90% through strategic caching mechanisms",
-        "Increased user retention by 25% by seeding PostgreSQL database with custom health articles",
+        "Reduced landing page initial load time by 90% through strategic caching and optimisation",
+        "Increased user retention by 25% by seeding PostgreSQL database with curated health articles",
         "Reduced overall project costs by 100% through strategic open-source implementation",
-        "Successfully deployed front- and backend apps",
-        "Designed and prototyped AI-assisted clinical documentation reducing physician entry time by an estimated 60%"
+        "Successfully shipped and deployed the Xeventy2.0 Health landing page"
       ],
-      technologies: ["Next.js", "React", "TypeScript", "Django", "PostgreSQL", "Redis", "Tailwind CSS", "OpenAI API", "LangChain", "RAG", "Figma"]
+      technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Figma", "PostgreSQL", "System Architecture", "UI/UX Design"]
     },
     {
       id: "lasisma",
