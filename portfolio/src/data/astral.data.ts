@@ -10,7 +10,7 @@ export const astralPortfolioData: PortfolioData = {
     name: "Temitayo Daisi-Oso",
     title: "Software Engineer | AI Engineer | Full-Stack Developer",
     tagline: "Building intelligent, scalable solutions across AI, health-tech, blockchain, and government sectors",
-    summary: "Innovative Software Engineer and AI Engineer with hands-on experience delivering scalable, secure, and user-centric digital products across government, health-tech, fintech, blockchain, and media sectors. Currently building TheoEMR — an AI-powered Electronic Medical Records and TeleHealth platform at Xeventy2.0 Health. Proven track record leading full-stack development, backend architecture, DevOps automation, and cross-functional teams on high-impact projects. NYSC Alumni.",
+    summary: "Innovative Software Engineer and AI Engineer with hands-on experience delivering scalable, secure, and user-centric digital products across government, health-tech, fintech, blockchain, and media sectors. Currently building TheoEMR — an AI-powered Electronic Medical Records and TeleHealth platform — and founding FanForge, an on-chain fan economy for music creators. Proven track record leading full-stack development, backend architecture, DevOps automation, and cross-functional teams on high-impact projects. NYSC Alumni.",
     contact: {
       phone: "+234 814-230-5514",
       phoneLink: "https://wa.me/2348142305514",
@@ -73,6 +73,31 @@ export const astralPortfolioData: PortfolioData = {
     }
   ],
   workExperience: [
+    {
+      id: "fanforge",
+      title: "Founder & Lead Engineer",
+      company: "FanForge",
+      companyUrl: "https://github.com/theAstralProgrammer0/fanforge",
+      location: "Remote",
+      startDate: "2026-06",
+      endDate: "Present",
+      current: true,
+      featured: true,
+      overview: "Founding and building FanForge — an on-chain fan economy for music creators powered by Aomi and Zora, built at the Aomi Labs hackathon on Base.",
+      responsibilities: [
+        "Architecting the full on-chain fan economy protocol in Rust, integrating Aomi SDK for agentic on-chain execution",
+        "Building FanForge Bot — a Telegram bot enabling fans and creators to interact with on-chain assets and fan economies",
+        "Designing and deploying smart contracts on Base leveraging Zora's creator protocol",
+        "Collaborating with Aomi Labs, Base, and Zora ecosystems to deliver a production-grade hackathon project",
+        "Leading product vision, technical architecture, and go-to-market strategy for FanForge"
+      ],
+      achievements: [
+        "Built and shipped a working on-chain fan economy protocol during the Aomi Labs hackathon",
+        "Integrated Zora's creator protocol with Aomi's agentic SDK for seamless on-chain fan interactions",
+        "Deployed live Telegram bot (@fanforgebot) connecting music creators with their fan communities on-chain"
+      ],
+      technologies: ["Rust", "Base", "Zora", "Aomi SDK", "Smart Contracts", "Telegram Bot API", "On-chain", "Web3"]
+    },
     {
       id: "xeventy",
       title: "Chief Technology Officer & Lead Engineer",
@@ -410,6 +435,13 @@ export const astralPortfolioData: PortfolioData = {
   ],
   awards: [
     {
+      id: "aomi-fanforge",
+      title: "Aomi Labs Hackathon — FanForge",
+      organization: "Aomi Labs",
+      date: "2026-06",
+      url: "https://x.com/aomi_labs"
+    },
+    {
       id: "alx-leader",
       title: "Leadership Program by ALX & MasterCard",
       organization: "ALX X MasterCard",
@@ -502,6 +534,17 @@ export const astralPortfolioData: PortfolioData = {
     }
   ],
   featuredProjects: [
+    {
+      id: "fanforge",
+      title: "FanForge",
+      description: "On-chain fan economy for music creators — built at the Aomi Labs hackathon on Base × Zora. Includes a live Telegram bot for creator-fan interactions on-chain.",
+      category: "Web3 / Fan Economy",
+      tags: ["Rust", "Base", "Zora", "Aomi SDK", "Smart Contracts", "Telegram Bot"],
+      imageUrl: "/images/projects-web-dev.png",
+      liveUrl: "https://x.com/fanforgebot",
+      githubUrl: "https://github.com/theAstralProgrammer0/fanforge",
+      featured: true
+    },
     {
       id: "1",
       title: "monty",
